@@ -41,5 +41,5 @@ void loop()
     Serial.println("Disconnecting...");
     client.stop();
  
-    delay(10000);
+    delay(100);
 }
