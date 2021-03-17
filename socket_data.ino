@@ -28,7 +28,7 @@ void loop()
  
     if (!client.connect(host, port)) {
  
-        Serial.println("Connection to host failed");
+        Serial.println("Connection to host failed......");
  
         delay(1000);
         return;
